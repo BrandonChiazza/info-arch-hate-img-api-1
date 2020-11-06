@@ -1,4 +1,7 @@
-from flask import Flask
+
+print("successfully ran docker file")
+
+'''from flask import Flask
 from Resources.blueprints import imageAccess
 from flask_swagger_ui import get_swaggerui_blueprint
 
@@ -30,4 +33,4 @@ application.register_blueprint(swaggerui_blueprint, url_prefix=SWAGGER_URL)
 
 if __name__ == "__main__":
     application.debug = True
-    application.run(host='0.0.0.0')
+    application.run(host='0.0.0.0')'''
