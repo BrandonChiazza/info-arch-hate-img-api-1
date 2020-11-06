@@ -12,7 +12,8 @@ RUN pip install -r requirements.txt
 
 COPY . /app
 
-WORKDIR ImageApi
+#we identify the directory where the app.py file can be found
+WORKDIR Model 
 
 ENTRYPOINT ["python"]
 CMD ["app.py"]
